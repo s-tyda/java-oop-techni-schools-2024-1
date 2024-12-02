@@ -1,4 +1,4 @@
-package org.example.oop.abstraction;
+package org.example.oop.abstraction.vehicles;
 
 public class Plane extends Vehicle{
     public Plane(float height, float width, float weight, String manufacturer, String model) {

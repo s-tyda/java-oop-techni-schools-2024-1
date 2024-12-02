@@ -1,4 +1,4 @@
-package org.example.oop.abstraction;
+package org.example.oop.abstraction.vehicles;
 
 public class Car extends Vehicle{
     private int numberOfCarDoors;

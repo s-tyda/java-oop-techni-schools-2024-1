@@ -1,4 +1,4 @@
-package org.example.oop.abstraction;
+package org.example.oop.abstraction.vehicles;
 
 public abstract class Vehicle {
     private float height;
