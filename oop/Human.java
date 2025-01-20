@@ -1,8 +1,8 @@
 package org.example.oop;
 
 public class Human extends Animal {
-    public Human(double height, double weight, String name) {
-        super(height, weight, name);
+    public Human(int index, double height, double weight, String name) {
+        super(index, height, weight, name);
     }
 
     @Override
