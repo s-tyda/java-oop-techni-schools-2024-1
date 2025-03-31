@@ -15,6 +15,10 @@ public class Animal extends Object implements Comparable<Animal> {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public void makeVoice(){
         System.out.println("Im animal");
     }
