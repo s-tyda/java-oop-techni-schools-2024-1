@@ -12,4 +12,16 @@ public class Item {
         this.price = price;
         this.quantity = quantity;
     }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

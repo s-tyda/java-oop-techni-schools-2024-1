@@ -85,18 +85,25 @@ public class Main {
 //        n += 1;
 //        n = n + 1;
 
-        int result = sum(4, 6);
-        System.out.println(result);
-        System.out.println(sum(5, 8));
-        print("Hello World");
-        // To jest błąd
-//        System.out.println(print("cos"));
-        sum(10, 20);
-        int x = 8;
-        System.out.println(sum(x, result));
+//        int result = sum(4, 6);
+//        System.out.println(result);
+//        System.out.println(sum(5, 8));
+//        print("Hello World");
+//        // To jest błąd
+////        System.out.println(print("cos"));
+//        sum(10, 20);
+//        int x = 8;
+//        System.out.println(sum(x, result));
+//
+//        double result2 = Math.pow(10, 1d/3);
+//
+//        System.out.println(Zad22.getSmthIdk(new int[]{1,2,3,4,5,6}));
 
-        double result2 = Math.pow(10, 1d/3);
+        List<String> list = Arrays.asList("a" ,"b", "c");
 
-        System.out.println(Zad22.getSmthIdk(new int[]{1,2,3,4,5,6}));
+        list.stream()
+                .filter(elem -> elem.equals("a"))
+                .map(elem -> elem.toLowerCase());
+//                .filter(elem -> System.out.println(elem));
     }
 }
