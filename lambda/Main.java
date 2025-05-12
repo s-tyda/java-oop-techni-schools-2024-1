@@ -75,7 +75,7 @@ public class Main {
 
         int sum = 0;
         for (int ele: integerList){
-            sum += ele;
+            sum = sum + ele;
         }
     }
 }
