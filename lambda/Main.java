@@ -3,6 +3,7 @@ package org.example.lambda;
 import org.example.oop.datastructures.warehouse.Item;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
@@ -65,5 +66,16 @@ public class Main {
                 .collect(Collectors.toList());
 
         System.out.println(filteredItems);
+
+        List<Integer> integerList = Arrays.asList(3, 5, 6, 134, 6);
+        System.out.println(
+                integerList.stream()
+                        .reduce(0, (sum, ele) -> sum + ele)
+        );
+
+        int sum = 0;
+        for (int ele: integerList){
+            sum += ele;
+        }
     }
 }
